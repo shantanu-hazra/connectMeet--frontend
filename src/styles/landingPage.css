@@ -1,0 +1,89 @@
+.landingPage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../public/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:Roboto,sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:1.9rem
+}
+
+nav .left{
+    font-size: 1.5rem;
+}
+
+nav .right{
+    display: flex;
+    justify-content: space-between;
+    gap:1.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+nav .right div{
+    cursor: pointer;
+}
+
+
+nav .right .login{
+    background-color: orange;
+    width:6rem;
+    height: 2rem;
+    border-radius: 8%;
+}
+
+nav .right .login p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center    
+}
+
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    height:80vh;
+    align-items: center;
+    padding-inline: 2rem;
+}
+
+.main-body img{
+    height: 70vh;
+    width: auto;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.main-body > :nth-child(1){
+    font-size: 1.5rem;
+    padding:1rem
+}
+
+.main-body .desc p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main-body .desc .get-started{
+    display: flex;
+    background-color: orange;
+    height: 3rem;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12%;
+}
+
+.get-started p{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
